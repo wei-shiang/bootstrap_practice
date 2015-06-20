@@ -1,6 +1,7 @@
 #  Wei-Xiang's notes
 ## 一、先安裝Git Bash 與 Sublime Text
 ### 二、A.下載Bootstrap的檔案
+###
 - 到Bootstrap的網站，點Download
 - 選第一個"Download Bootstrap"後，會下載Zip檔
 - 解壓縮檔案，並把「css、fonts、js」三個資料夾，複製到我們網頁的資料夾「bootstap_practice」
