@@ -14,9 +14,10 @@
 - 載好後，到C曹Site資料夾裡就能看見「bootstrap_practice」資料夾，並把他丟進Sublime Text
 
 ###三、選定主題後就開始吧~
-- 1.網頁語言設定成「utf-8」
-- 2.在head裡，打上標題<title>熊貓家族</title>，這樣網頁最上面的瀏覽標籤就會跑出熊貓家族
-- 3.設定連結(link)，‵`<link rel="stylesheet" type="text/css" href="css/bootstrap.css">‵`
+- 網頁語言設定成「utf-8」
+- 在head裡，打上標題<title>熊貓家族</title>，這樣網頁最上面的瀏覽標籤就會跑出熊貓家族
+- 設定link，打<link rel="stylesheet" type="text/css" href="css/bootstrap.css">，不然無法與bootstrap.css連結
+- 
 ``
     <div class="container">
       <div class="row well well-lg">
