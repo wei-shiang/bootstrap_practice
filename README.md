@@ -11,7 +11,7 @@
 - 到自己的頁面，點「bootstrap_practice」，就去後右下角複製連結
 - 到Git Bash 打git clone 貼上剛才複製的連結
 - 載好後，到C曹Site資料夾裡就能看見「bootstrap_practice」資料夾，並把他丟進Sublime Text
-### 三、
+###  三、
 ``
     <div class="container">
       <div class="row well well-lg">
