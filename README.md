@@ -6,6 +6,7 @@
 - 解壓縮檔案，並把「css、fonts、js」三個資料夾，複製到我們網頁的資料夾「bootstap_practice」
 - 把「Bootstap_practice」資料夾丟進Sublime Text
 - 新增file，命名為index.html，打html按Tab鍵，就能跑出架構
+
 ###三
 
 ### B.到老師的Git hub下載檔案
