@@ -49,22 +49,45 @@
 - 開 main.css ‵`footer{background-color :#FFF;}`` =>調頁腳的背景顏色
 
 ###六、glyphicon
-- ``<i class="glyphicon glyphicon-home ">`` =>到Bootstrap -> Components 選擇要的icon 複製
+- ``<div class="container feature">`` =>要在上一層的div 加上 feature ((不然會有問題
+- ``<i class="glyphicon glyphicon-home">`` =>到Bootstrap -> Components 選擇要的icon 複製
 - 貼到  "    " 裡面
-- 到main.css 打上``.feature .glyphicon {font-size :26px;}``
+- 到main.css 打上``.feature .glyphicon {font-size :26px;}`` ((可設定icon的大小
 
-###七、頁首
-- ``<div class="navbar navbar-default navbar-fixed-top">`` 
--       ``<div class="container">``
--        ``<a href="/" class="navbar-brand">熊貓家族</a>`` => 標題會浮動靠左對齊
--         ``<ul class="nav navbar-nav navbar-right nave collapse navbar-collapse">``
--          ``<li><a href="index.html"><i class="glyphicon glyphicon glyphicon-home " title="回首頁"></i></a></li>``
--          ``<li><a href="2.html"><i class="glyphicon glyphicon-film" title="可愛影片"></i></a></li>``
--          `` <li><a href="1.html"><i class="glyphicon glyphicon-file" title="分辨訣竅"></i></a></li>``
--          `` <li><a href="stations.html"><i class="glyphicon glyphicon-envelope" title="聯絡我們"></i></a></li>``
--        `` </ul>``
--       ``</div>``
--    `` </div>``
+###七、設定頁首
+- ``<div class="navbar navbar-default navbar-fixed-top">`` =>navbar-default 設定導覽列的樣式 (白色的)、fixed-top固定在上列
+- ``<div class="container">``
+- ``<a href="index.html" class="navbar-brand">熊貓家族</a>`` => 標題會浮動靠左對齊
+- ``<ul class="nav navbar-nav navbar-right ">`` =>導覽列靠右對齊
+- ``<li><a href="index.html"><i class="glyphicon glyphicon glyphicon-home " title="回首頁"></i></a></li>`` 
+-   =>把glyphicon結合導覽列，並超連結至首頁。
+- ``<li><a href="2.html"><i class="glyphicon glyphicon-film" title="可愛影片"></i></a></li>`` =>超連結到2.html(可愛影片)
+- ``<li><a href="1.html"><i class="glyphicon glyphicon-file" title="分辨訣竅"></i></a></li>`` =>連結到1.html (分辨秘訣)
+- ``</ul>``
+- ``</div>``
+- ``</div>``
+ 
+###八、設定手機大小瀏覽，導覽列會藏起來
+- 把原本的頁首部分，變成這樣
+- ``div class="navbar navbar-default navbar-fixed-top">`` 
+- ``<div class="container feature">``
+- ``<div class="navbar-header">`` =>可讓下拉式清單展開後滿版排好
+- ``<a href="index.html" class="navbar-brand"><font size="5">熊貓家族</font></a>``
+- ``<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">``=>設定會在小型視窗隱藏
+- ``<span class="sr-only">Toggle navigation</span>``
+- ``<span class="icon-bar"></span>``
+- ``<span class="icon-bar"></span>``
+- ``<span class="icon-bar"></span>``
+- ``</button>``
+- ``</div>``
+- ``<ul class="nav navbar-nav navbar-right nave collapse navbar-collapse">``
+- ``<li><a href="index.html"><i class="glyphicon glyphicon glyphicon-home " title="回首頁"></i></a></li>``
+- ``<li><a href="2.html"><i class="glyphicon glyphicon-film" title="可愛影片"></i></a></li>``
+- ``<li><a href="1.html"><i class="glyphicon glyphicon-file" title="分辨訣竅"></i></a></li>``
+- ``<li><a href="stations.html"><i class="glyphicon glyphicon-envelope" title="聯絡我們"></i></a></li>``
+- ``</ul>``
+- ``</div>``
+- ``</div>``
 
 
 
