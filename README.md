@@ -27,25 +27,25 @@
 - ``</div>``
 - ``<br/>`` =>可以換行
 - ``<div class="col-md-6>``
-- ``<img src="這裡放照片的連結網址" style="width:90%">`` width可以照片的大小。
+- ``<img src="這裡放照片的連結網址" style="width:90%">`` width可以設定照片的大小。
 - ``</div>``
 - ``</div>``
-- ``</div>``
+- ``</div>`` =>這段調col-md-6，所以會分兩欄
 
 ###五、頁腳
 -  ``<footer class="container-fluid">``  =>滿版
--      `` <div class="row">``
--        `` <div class="container">``
--          `` <div class ='col-md-3'>``
--             ``<h1><font size="5">好站連結</font></h1>``  =>頁腳的標題
--             ``<ul class="list-unstyled">``  =>把連結的點點去掉
--             `` <li><a href="放網址" target= _blank">台北市大貓熊保育網</a></li>`` =>_blank是開新頁
--               ``<li><a href="http://www.zoo.gov.taipei/" target="_blanK">台北市立木柵動物園</a></li>``
--             ``</ul>``
--           ``</div>``
--          ``</div>``
--         ``</div>``
--     ``</footer>``
+-  `` <div class="row">``
+-  `` <div class="container">``
+-  `` <div class ='col-md-3'>``
+-  ``<h1><font size="5">好站連結</font></h1>``  =>頁腳的標題
+-  ``<ul class="list-unstyled">``  =>把連結的點點去掉
+-  `` <li><a href="放網址" target= _blank">台北市大貓熊保育網</a></li>`` =>_blank是開新頁
+-  ``<li><a href="http://www.zoo.gov.taipei/" target="_blanK">台北市立木柵動物園</a></li>``
+-  ``</ul>``
+-  ``</div>``
+-  ``</div>``
+-  ``</div>``
+-  ``</footer>``
 - 開 main.css ‵`footer{background-color :#FFF;}`` =>調頁腳的背景顏色
 
 ###六、glyphicon
@@ -66,6 +66,8 @@
 - ``</ul>``
 - ``</div>``
 - ``</div>``
+- 因為是用固定在最上列，下面的文字會跑版，因此要到main.css設定間距
+- ``body{padding-top : 100px;}`` 
  
 ###八、設定手機大小瀏覽，導覽列會藏起來
 - 把原本的頁首部分，變成這樣
@@ -73,25 +75,24 @@
 - ``<div class="container feature">``
 - ``<div class="navbar-header">`` =>可讓下拉式清單展開後滿版排好
 - ``<a href="index.html" class="navbar-brand"><font size="5">熊貓家族</font></a>``
-- ``<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">``=>設定會在小型視窗隱藏
+- ``<button type="button" class="navbar-toggle" data-toggle="collapse"   data-target=".navbar-collapse">``=>設定會在小型視窗隱藏
 - ``<span class="sr-only">Toggle navigation</span>``
+- ``<span class="icon-bar"></span>`` =>icon 增加一條線
 - ``<span class="icon-bar"></span>``
-- ``<span class="icon-bar"></span>``
-- ``<span class="icon-bar"></span>``
+- ``<span class="icon-bar"></span>``=>想多一點線可以多打幾個
 - ``</button>``
 - ``</div>``
-- ``<ul class="nav navbar-nav navbar-right nave collapse navbar-collapse">``
+- ``<ul class="nav navbar-nav navbar-right nave collapse navbar-collapse">`` 
+- =>collapse 加在有nav的後面，navbar-collapse 除了手機以外的都會顯示出來
 - ``<li><a href="index.html"><i class="glyphicon glyphicon glyphicon-home " title="回首頁"></i></a></li>``
 - ``<li><a href="2.html"><i class="glyphicon glyphicon-film" title="可愛影片"></i></a></li>``
 - ``<li><a href="1.html"><i class="glyphicon glyphicon-file" title="分辨訣竅"></i></a></li>``
-- ``<li><a href="stations.html"><i class="glyphicon glyphicon-envelope" title="聯絡我們"></i></a></li>``
 - ``</ul>``
 - ``</div>``
 - ``</div>``
-
-
-
-
-
-
-
+ 
+###八、改字、頁面的顏色
+- 在main.css 更改
+- ``body{background-color :#000;}`` 更改背景顏色  ((#000為黑色
+- ``h2{color :#FFF;}`` <h2>的顏色通通是白色
+- 若要單獨改字顏色與大小直接在字那邊改，不用到main.css``<h4><font size="6" color="blue">圓仔</font></h4>`` 
