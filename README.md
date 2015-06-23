@@ -17,7 +17,11 @@
 - 網頁語言設定成「utf-8」
 - 在head裡，打上標題<title>熊貓家族</title>，這樣網頁最上面的瀏覽標籤就會跑出熊貓家族
 - 設定link，打``<link rel="stylesheet" type="text/css" href="css/bootstrap.css">``，不然無法與bootstrap.css連結
-- 
+
+###四、排版
+- 每行最多12，若要分欄相加不可以超過12，不然第二欄會換到下一行。
+- `‵<div class="col-md-6">‵`
+- ‵`<h3>這裡放文章內容</h3>
 ``
     <div class="container">
       <div class="row well well-lg">
