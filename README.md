@@ -94,5 +94,5 @@
 ###八、改字、頁面的顏色
 - 在main.css 更改
 - ``body{background-color :#000;}`` 更改背景顏色  ((#000為黑色
-- ``h2{color :#FFF;}`` <h2>的顏色通通是白色
+- ``h2{color :#FFF;}`` h2 的顏色通通是白色
 - 若要單獨改字顏色與大小直接在字那邊改，不用到main.css``<h4><font size="6" color="blue">圓仔</font></h4>`` 
