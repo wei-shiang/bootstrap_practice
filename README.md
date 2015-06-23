@@ -19,10 +19,41 @@
 - 設定link，打``<link rel="stylesheet" type="text/css" href="css/bootstrap.css">``，不然無法與bootstrap.css連結
 
 ###四、排版
-- 每行最多12，若要分欄相加不可以超過12，不然第二欄會換到下一行。
-- `‵<div class="col-md-6">‵`
-- ‵`<h3>這裡放文章內容</h3>
-``
-    <div class="container">
-      <div class="row well well-lg">
-``
+- ``<div class="container">‵`
+- ``<div class="row well">‵` => row是這段變成一個區塊，well是這段會有個框
+- ``<div class="col-md-6">‵` => 每行最多12，若要分欄相加不可以超過12，不然第二欄會換到下一行。
+- ``<h3>這裡放文章內容</h3>‵`
+- ``</div>‵`
+- ``<br/>`` =>可以換行
+- ``<div class="col-md-6>‵`
+- ``<img src="這裡放照片的連結網址" style="width:90%">`` width可以照片的大小。
+- ``</div>``
+- ``</div>``
+- ``</div>``
+
+###五、頁腳
+-  ``<footer class="container-fluid">``  =>滿版
+-      `` <div class="row">``
+-        `` <div class="container">``
+-          `` <div class ='col-md-3'>``
+-             ``<h1><font size="5">好站連結</font></h1>``  =>頁腳的標題
+-             ``<ul class="list-unstyled">``  =>把連結的點點去掉
+-             `` <li><a href="放網址" target= _blank">台北市大貓熊保育網</a></li>`` =>_blank是開新頁
+-               ``<li><a href="http://www.zoo.gov.taipei/" target="_blanK">台北市立木柵動物園</a></li>``
+-             ``</ul>``
+-           ``</div>``
+-          ``</div>``
+-         ``</div>``
+-     ``</footer>``
+- 開 main.css ‵`footer{background-color :#FFF;}`` =>調頁腳的背景顏色
+
+###六、glyphicon
+
+
+
+
+
+
+
+
+
