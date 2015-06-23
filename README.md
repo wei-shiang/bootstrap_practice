@@ -16,16 +16,17 @@
 ###三、選定主題後就開始吧~
 - 網頁語言設定成「utf-8」
 - 在head裡，打上標題<title>熊貓家族</title>，這樣網頁最上面的瀏覽標籤就會跑出熊貓家族
-- 設定link，打``<link rel="stylesheet" type="text/css" href="css/bootstrap.css">``，不然無法與bootstrap.css連結
+- 設定link，打``<link rel="stylesheet" type="text/css" href="css/bootstrap.css">`` 不然無法與bootstrap.css連結
+- 設定link，打``<link rel="stylesheet" type="text/css" href="css/bootstrap.css">`` 不然不能與 main.css連結
 
 ###四、排版
-- ``<div class="container">‵`
-- ``<div class="row well">‵` => row是這段變成一個區塊，well是這段會有個框
-- ``<div class="col-md-6">‵` => 每行最多12，若要分欄相加不可以超過12，不然第二欄會換到下一行。
-- ``<h3>這裡放文章內容</h3>‵`
-- ``</div>‵`
+- ``<div class="container">``
+- ``<div class="row well">`` => row是這段變成一個區塊，well是這段會有個框
+- ``<div class="col-md-6">`` => 每行最多12，若要分欄相加不可以超過12，不然第二欄會換到下一行。
+- ``<h3>這裡放文章內容</h3>``
+- ``</div>``
 - ``<br/>`` =>可以換行
-- ``<div class="col-md-6>‵`
+- ``<div class="col-md-6>``
 - ``<img src="這裡放照片的連結網址" style="width:90%">`` width可以照片的大小。
 - ``</div>``
 - ``</div>``
@@ -48,8 +49,22 @@
 - 開 main.css ‵`footer{background-color :#FFF;}`` =>調頁腳的背景顏色
 
 ###六、glyphicon
+- ``<i class="glyphicon glyphicon-home ">`` =>到Bootstrap -> Components 選擇要的icon 複製
+- 貼到  "    " 裡面
+- 到main.css 打上``.feature .glyphicon {font-size :26px;}``
 
-
+###七、頁首
+- ``<div class="navbar navbar-default navbar-fixed-top">`` 
+-       ``<div class="container">``
+-        ``<a href="/" class="navbar-brand">熊貓家族</a>`` => 標題會浮動靠左對齊
+-         ``<ul class="nav navbar-nav navbar-right nave collapse navbar-collapse">``
+-          ``<li><a href="index.html"><i class="glyphicon glyphicon glyphicon-home " title="回首頁"></i></a></li>``
+-          ``<li><a href="2.html"><i class="glyphicon glyphicon-film" title="可愛影片"></i></a></li>``
+-          `` <li><a href="1.html"><i class="glyphicon glyphicon-file" title="分辨訣竅"></i></a></li>``
+-          `` <li><a href="stations.html"><i class="glyphicon glyphicon-envelope" title="聯絡我們"></i></a></li>``
+-        `` </ul>``
+-       ``</div>``
+-    `` </div>``
 
 
 
