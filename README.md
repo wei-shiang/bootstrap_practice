@@ -1,5 +1,6 @@
 #  Wei-Xiang's notes      
 - 12119265  高維襄
+
 ## 一、先安裝Git Bash 與 Sublime Text
 ### 二、A.下載Bootstrap的檔案
 - 到Bootstrap的網站，點Download
